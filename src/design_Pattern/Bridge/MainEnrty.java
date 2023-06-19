@@ -18,5 +18,12 @@ public class MainEnrty {
 		
 		Display display2 = new CaptionDisplay();
 		draft.print(display2);
+		
+		var publisher = "쪼꼬미출판사";
+		var cost = 4250;
+		
+		Publication publication = new Publication(title, author, content, publisher, cost);
+		
+		publication.print(display1);
 	}
 }
