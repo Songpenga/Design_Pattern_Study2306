@@ -1,0 +1,6 @@
+package design_Pattern.Prototype;
+
+public interface Shape {
+	String draw();
+	void moveOffset(int dx, int dy);
+}
