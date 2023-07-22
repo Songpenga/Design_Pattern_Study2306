@@ -1,5 +1,10 @@
 package design_Pattern.Interpreter;
 
-public class CommendExpression {
+public abstract class CommendExpression implements Expression{
 
+	protected String keyword;
+	
+	public CommendExpression(String keyword) {
+		this.keyword = keyword;
+	}
 }

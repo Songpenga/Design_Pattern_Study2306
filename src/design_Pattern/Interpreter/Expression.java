@@ -1,5 +1,6 @@
 package design_Pattern.Interpreter;
 
-public class Expression {
-
+public interface Expression {
+	boolean parse(Context context);
+	boolean run();
 }

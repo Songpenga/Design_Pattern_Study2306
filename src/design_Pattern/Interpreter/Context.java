@@ -11,7 +11,7 @@ public class Context {
 		readNextKeyword();
 	}
 
-	private String readNextKeyword() {
+	public String readNextKeyword() {
 		if(tokenizer.hasMoreTokens()) {
 			currentKeyword = tokenizer.nextToken();
 		} else {

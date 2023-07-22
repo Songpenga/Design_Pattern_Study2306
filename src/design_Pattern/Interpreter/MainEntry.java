@@ -12,7 +12,7 @@ public class MainEntry {
 			
 			System.out.println(keyword);
 			
-			context.readNextKeyword
+			context.readNextKeyword();
 		}
 	}
 }
